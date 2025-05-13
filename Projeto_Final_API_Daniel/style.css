@@ -1,0 +1,144 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #0e0e0e;
+    color: white;
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #111;
+    padding: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+}
+
+.logo img {
+    height: 70px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+nav a {
+    margin-left: 20px;
+    color: white;
+    text-decoration: none;
+}
+
+.banner {
+    background-color: #1a1a1a;
+    padding: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner-text {
+    max-width: 50%;
+}
+
+.banner h1 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.banner h1 span {
+    color: #72ff6b;
+}
+
+.banner button {
+    background-color: #72ff6b;
+    color: black;
+    padding: 10px 20px;
+    border: none;
+    font-weight: bold;
+    cursor: pointer;
+    border-radius: 5px;
+}
+
+.categorias {
+    display: flex;
+    justify-content: space-around;
+    padding: 20px;
+    background-color: #141414;
+}
+
+.categorias div {
+    text-align: center;
+    padding: 10px;
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    width: 150px;
+}
+
+.categorias div img {
+    width: 40px;
+    margin-bottom: 10px;
+}
+
+.ofertas {
+    padding: 20px;
+}
+
+.ofertas h2 {
+    margin-bottom: 20px;
+}
+
+.produtos {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+}
+
+.produto {
+    background-color: #1f1f1f;
+    border-radius: 10px;
+    padding: 20px;
+    margin: 10px;
+    width: 180px;
+    text-align: center;
+}
+
+footer {
+    background-color: #111;
+    padding: 20px;
+    text-align: center;
+}
+
+footer p, footer a {
+    color: #ccc;
+    font-size: 14px;
+}
+
+.div-busca {
+    display: flex;
+    background-color:#72ff6b;
+    border:solid 1px;
+    border-radius:15px;
+    width:300px;
+    height:34px;
+}
+
+.txt-busca {
+    background-color:transparent;
+    padding-left:5px;
+    font-style:italic;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:260px;
+}
