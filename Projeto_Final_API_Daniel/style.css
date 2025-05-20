@@ -57,11 +57,11 @@ nav a {
 }
 
 .banner h1 span {
-    color: #72ff6b;
+    color: #378537;
 }
 
 .banner button {
-    background-color: #72ff6b;
+    background-color: #378537;
     color: black;
     padding: 10px 20px;
     border: none;
@@ -126,7 +126,7 @@ footer p, footer a {
 
 .div-busca {
     display: flex;
-    background-color:#72ff6b;
+    background-color:#378537;
     border:solid 1px;
     border-radius:15px;
     width:300px;
