@@ -129,15 +129,16 @@ footer p, footer a {
     background-color:#72ff6b;
     border:solid 1px;
     border-radius:15px;
-    width:300px;
-    height:34px;
+    width:25%;
+    height:2rem;
 }
 
 .txt-busca {
+    display: flex;
     background-color:transparent;
     padding-left:5px;
     font-size:18px;
     border:none;
     height:32px;
-    width:260px;
+    width:440px;
 }
