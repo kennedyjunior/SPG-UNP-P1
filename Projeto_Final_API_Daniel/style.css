@@ -57,17 +57,41 @@ nav a {
 }
 
 .banner h1 span {
-    color: #378537;
+    color: #72ff6b;
 }
 
 .banner button {
-    background-color: #378537;
+    background-color: #72ff6b;
     color: black;
     padding: 10px 20px;
     border: none;
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+}
+
+.div-busca {
+    display: flex;
+    background-color:#378537;
+    background-color:#378537;
+    border-radius:15px;
+    width:25%;
+    height:2rem;
+}
+
+.txt-busca {
+    display: flex;
+    background-color:transparent;
+    padding-left:5px;
+    font-size:18px;
+    border:none;
+    height:32px;
+    width:440px;
+    
+}
+
+.txt-busca::placeholder {
+    color: black;
 }
 
 .categorias {
@@ -86,7 +110,7 @@ nav a {
 }
 
 .categorias div img {
-    width: 40px;
+    width: 120px;
     margin-bottom: 10px;
 }
 
@@ -113,37 +137,68 @@ nav a {
     text-align: center;
 }
 
-footer {
-    background-color: #111;
-    padding: 20px;
-    text-align: left;
+.footer {
+  background-color: #1e1e1e;
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
 }
 
-footer p, footer a {
+
+.footer-container {
     color: #ccc;
     font-size: 14px;
 }
 
-.div-busca {
-    display: flex;
-    background-color:#72ff6b;
-    background-color:#378537;
-    border-radius:15px;
-    width:25%;
-    height:2rem;
+.footer-container {
+  display: flex;                  /* Ativa o layout flexbox */
+  justify-content: center;       /* Centraliza os itens horizontalmente */
+  align-items: center;           /* Centraliza os itens verticalmente */
+  gap: 50px;                      /* Espaço entre os elementos filhos */
+  flex-wrap: wrap;               /* Permite que os itens quebrem linha se necessário */
 }
 
-.txt-busca {
-    display: flex;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:440px;
-    
+.footer-info {
+  text-align: left;              /* Alinha o texto à esquerda */
 }
 
-.txt-busca::placeholder {
-    color: black;
+.footer-divider {
+  width: 1px;                    /* Largura da barra */
+  height: 60px;                  /* Altura da barra (ajuste conforme necessário) */
+  background-color: #555;        /* Cor da barra - um cinza mais suave */
+  opacity: 0.5;                  /* Deixa a barra discreta */
+}
+
+.footer-social {
+  display: flex;                 /* Coloca os ícones em linha (flex) */
+  gap: 15px;                     /* Espaço entre os ícones sociais */
+}
+
+.social-icon {
+  width: 50px;                   /* Largura do ícone */
+  height: 50px;                  /* Altura do ícone */
+  filter: brightness(0) invert(1); /* Deixa o ícone branco sobre fundo escuro */
+  transition: transform 0.3s;    /* Efeito suave de transformação */
+}
+
+.social-icon:hover {
+  transform: scale(1.1);         /* Aumenta o ícone levemente ao passar o mouse */
+}
+
+/* Seção de certificações (abaixo do rodapé) */
+.certificacoes {
+  background-color: #fafafa;       /* Fundo cinza tom acima do fundo comum */
+  padding: 20px 0;                 /* Espaçamento acima e abaixo */
+  text-align: center;             /* Centraliza o conteúdo */
+}
+
+.certificacoes-container img {
+  max-width: 10%;                 /* Evita que ultrapasse a largura da tela */
+  height: auto;                   /* Mantém proporção da imagem */
+  opacity: 0.9;                   /* Leve transparência */
+  transition: opacity 0.3s ease; /* Suaviza efeito ao passar o mouse */
+}
+
+.certificacoes-container img:hover {
+  opacity: 1;                     /* Totalmente visível ao passar o mouse */
 }
