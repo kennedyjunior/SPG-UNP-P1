@@ -1,0 +1,159 @@
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Super Games Computadores</title>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: 'Roboto', sans-serif;
+    }
+    body {
+      background-color: #0e0e0e;
+      color: white;
+    }
+    header {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      background-color: #111;
+      padding: 20px;
+    }
+    .logo {
+      display: flex;
+      align-items: center;
+    }
+    .logo img {
+      height: 40px;
+      margin-right: 10px;
+    }
+    .logo-text {
+      font-size: 24px;
+      font-weight: bold;
+    }
+    nav a {
+      margin-left: 20px;
+      color: white;
+      text-decoration: none;
+    }
+    .banner {
+      background-color: #1a1a1a;
+      padding: 30px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+    }
+    .banner-text {
+      max-width: 50%;
+    }
+    .banner h1 {
+      font-size: 32px;
+      margin-bottom: 10px;
+    }
+    .banner h1 span {
+      color: #72ff6b;
+    }
+    .banner button {
+      background-color: #72ff6b;
+      color: black;
+      padding: 10px 20px;
+      border: none;
+      font-weight: bold;
+      cursor: pointer;
+      border-radius: 5px;
+    }
+    .categorias {
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      background-color: #141414;
+    }
+    .categorias div {
+      text-align: center;
+      padding: 10px;
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      width: 150px;
+    }
+    .categorias div img {
+      width: 40px;
+      margin-bottom: 10px;
+    }
+    .ofertas {
+      padding: 20px;
+    }
+    .ofertas h2 {
+      margin-bottom: 20px;
+    }
+    .produtos {
+      display: flex;
+      justify-content: space-around;
+      flex-wrap: wrap;
+    }
+    .produto {
+      background-color: #1f1f1f;
+      border-radius: 10px;
+      padding: 20px;
+      margin: 10px;
+      width: 180px;
+      text-align: center;
+    }
+    footer {
+      background-color: #111;
+      padding: 20px;
+      text-align: center;
+    }
+    footer p, footer a {
+      color: #ccc;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="logo">
+      <img src="logo.png" alt="Super Games Logo">
+      <span class="logo-text">SUPER GAMES COMPUTADORES</span>
+    </div>
+    <nav>
+      <a href="#">Promoções</a>
+      <a href="#">Games</a>
+      <a href="#">Computadores</a>
+    </nav>
+  </header>
+
+  <section class="banner">
+    <div class="banner-text">
+      <h1>OFERTAS EM <span>HARDWARE GAMER</span></h1>
+      <button>CONFIRA</button>
+    </div>
+    <img src="pc-headset.png" alt="PC e Headset" style="height:150px;">
+  </section>
+
+  <section class="categorias">
+    <div><img src="icon-console.png" alt="Consoles"><p>Consoles</p></div>
+    <div><img src="icon-pc.png" alt="PCs"><p>PCs e Notebooks</p></div>
+    <div><img src="icon-perifericos.png" alt="Periféricos"><p>Periféricos</p></div>
+    <div><img src="icon-camiseta.png" alt="Colecionáveis"><p>Colecionáveis</p></div>
+  </section>
+
+  <section class="ofertas">
+    <h2>OFERTAS</h2>
+    <div class="produtos">
+      <div class="produto"><img src="controle.png" alt="Controle" style="width:100px;"><p>Controle Gamer</p></div>
+      <div class="produto"><img src="notebook.png" alt="Notebook" style="width:100px;"><p>Notebook Gamer</p></div>
+      <div class="produto"><img src="monitor.png" alt="Monitor" style="width:100px;"><p>Monitor Gamer</p></div>
+      <div class="produto"><img src="servicos.png" alt="Serviços" style="width:60px;"><p>Serviços</p></div>
+    </div>
+  </section>
+
+  <footer>
+    <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
+    <p>Email: contato@exemplo.com | Tel: (00) 12345-6789</p>
+    <p>supergames.vet</p>
+  </footer>
+</body>
+</html>

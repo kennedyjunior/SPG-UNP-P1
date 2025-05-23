@@ -1,0 +1,17 @@
+<!-- Seção de Serviços Efetuados -->
+<section class="servicos">
+  <div class="servicos-container" style="display: flex; align-items: center; gap: 20px; padding: 40px;">
+    <img src="Referencias/funcionario.jpg" alt="Funcionário Super Games" style="width: 200px; border-radius: 10px;">
+    <div class="servicos-texto" style="max-width: 600px;">
+      <h2>Serviços Prestados</h2>
+      <ul>
+        <li>Formatação e reinstalação de sistemas operacionais</li>
+        <li>Montagem de computadores personalizados</li>
+        <li>Limpeza interna e manutenção preventiva</li>
+        <li>Atualização de hardware e drivers</li>
+        <li>Suporte técnico e diagnóstico de problemas</li>
+        <li>Instalação de softwares e antivírus</li>
+      </ul>
+    </div>
+  </div>
+</section>
