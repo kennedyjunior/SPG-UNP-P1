@@ -138,6 +138,7 @@ nav a {
     text-align: center;
 }
 
+/* Toda footer e certificados realizado por Eduardo */
 .footer {
   background-color: #1e1e1e;
   color: #fff;
@@ -204,8 +205,8 @@ nav a {
   opacity: 1;                     /* Totalmente visível ao passar o mouse */
 }
 
-
-.propagandas {                  /* Parte de Daniel Tavares para baixo */
+/* Parte de Daniel Tavares, propagandas e fotos */
+.propagandas {                  
     padding-right: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
     padding-left: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
     display: flex;               /* Coloca as propagandas ordenadas (em linha) */
