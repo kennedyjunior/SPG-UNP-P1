@@ -52,8 +52,8 @@ nav a {
 }
 
 .banner h1 {
-    font-size: 32px;
-    margin-bottom: 10px;
+    font-size: 45px;                    
+    margin-bottom: 5px;                 
 }
 
 .banner h1 span {
@@ -68,6 +68,7 @@ nav a {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
+    font-size: 17px;                    
 }
 
 .div-busca {
@@ -201,4 +202,19 @@ nav a {
 
 .certificacoes-container img:hover {
   opacity: 1;                     /* Totalmente visível ao passar o mouse */
+}
+
+
+.propagandas {                  /* Parte de Daniel Tavares para baixo */
+    padding-right: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
+    padding-left: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
+    display: flex;               /* Coloca as propagandas ordenadas (em linha) */
+    text-align: center;          /* Centraliza todo o conteúdo */
+}
+
+.fotos-propagandas {
+    padding-right: 5px;           /* Põe um espaçamento entre as propagandas */
+    padding-left: 5px;            /* Põe um espaçamento entre as propagandas */
+    width: 100%;                 /* Faz com que a imagem preencha 100% do espaço disponível */
+    height: 100%;                /* Faz com que a imagem preencha 100% do espaço disponível */
 }
