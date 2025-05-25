@@ -52,8 +52,8 @@ nav a {
 }
 
 .banner h1 {
-    font-size: 45px;                    
-    margin-bottom: 5px;                 
+    font-size: 45px;
+    margin-bottom: 5px;
 }
 
 .banner h1 span {
@@ -68,31 +68,30 @@ nav a {
     font-weight: bold;
     cursor: pointer;
     border-radius: 5px;
-    font-size: 17px;                    
+    font-size: 17px;
+    transition: background-color 0.3s ease;
+    margin-top: 10px;
 }
 
 .banner button:hover {
-    background-color: #4da848
+    background-color: #4da848;
 }
 
 .div-busca {
     display: flex;
-    background-color:#378537;
-    background-color:#378537;
-    border-radius:15px;
-    width:25%;
-    height:2rem;
+    background-color: #378537;
+    border-radius: 15px;
+    width: 25%;
+    height: 2rem;
 }
 
 .txt-busca {
-    display: flex;
-    background-color:transparent;
-    padding-left:5px;
-    font-size:18px;
-    border:none;
-    height:32px;
-    width:440px;
-    
+    background-color: transparent;
+    padding-left: 5px;
+    font-size: 18px;
+    border: none;
+    height: 32px;
+    width: 440px;
 }
 
 .txt-busca::placeholder {
@@ -104,6 +103,7 @@ nav a {
     justify-content: space-around;
     padding: 20px;
     background-color: #111;
+    flex-wrap: wrap;
 }
 
 .categorias div {
@@ -112,6 +112,7 @@ nav a {
     background-color: #1f1f1f;
     border-radius: 10px;
     width: 150px;
+    margin: 10px;
 }
 
 .categorias div img {
@@ -131,7 +132,6 @@ nav a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
-    
 }
 
 .produto {
@@ -143,84 +143,195 @@ nav a {
     text-align: center;
 }
 
-/* Toda footer e certificados realizado por Eduardo */
+/* Rodapé (Eduardo) */
 .footer {
-  background-color: #1e1e1e;
-  color: #fff;
-  padding: 20px 0;
-  text-align: center;
+    background-color: #1e1e1e;
+    color: #fff;
+    padding: 20px 0;
+    text-align: center;
 }
-
 
 .footer-container {
     color: #ccc;
     font-size: 14px;
-}
-
-.footer-container {
-  display: flex;                  /* Ativa o layout flexbox */
-  justify-content: center;       /* Centraliza os itens horizontalmente */
-  align-items: center;           /* Centraliza os itens verticalmente */
-  gap: 50px;                      /* Espaço entre os elementos filhos */
-  flex-wrap: wrap;               /* Permite que os itens quebrem linha se necessário */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
 }
 
 .footer-info {
-  text-align: left;              /* Alinha o texto à esquerda */
+    text-align: left;
 }
 
 .footer-divider {
-  width: 1px;                    /* Largura da barra */
-  height: 60px;                  /* Altura da barra (ajuste conforme necessário) */
-  background-color: #555;        /* Cor da barra - um cinza mais suave */
-  opacity: 0.5;                  /* Deixa a barra discreta */
+    width: 1px;
+    height: 60px;
+    background-color: #555;
+    opacity: 0.5;
 }
 
 .footer-social {
-  display: flex;                 /* Coloca os ícones em linha (flex) */
-  gap: 15px;                     /* Espaço entre os ícones sociais */
+    display: flex;
+    gap: 15px;
 }
 
 .social-icon {
-  width: 50px;                   /* Largura do ícone */
-  height: 50px;                  /* Altura do ícone */
-  filter: brightness(0) invert(1); /* Deixa o ícone branco sobre fundo escuro */
-  transition: transform 0.3s;    /* Efeito suave de transformação */
+    width: 50px;
+    height: 50px;
+    filter: brightness(0) invert(1);
+    transition: transform 0.3s;
 }
 
 .social-icon:hover {
-  transform: scale(1.1);         /* Aumenta o ícone levemente ao passar o mouse */
+    transform: scale(1.1);
 }
 
-/* Seção de certificações (abaixo do rodapé) */
+/* Certificações */
 .certificacoes {
-  background-color: #fafafa;       /* Fundo cinza tom acima do fundo comum */
-  padding: 20px 0;                 /* Espaçamento acima e abaixo */
-  text-align: center;             /* Centraliza o conteúdo */
+    background-color: #fafafa;
+    padding: 20px 0;
+    text-align: center;
 }
 
 .certificacoes-container img {
-  max-width: 10%;                 /* Evita que ultrapasse a largura da tela */
-  height: auto;                   /* Mantém proporção da imagem */
-  opacity: 0.9;                   /* Leve transparência */
-  transition: opacity 0.3s ease; /* Suaviza efeito ao passar o mouse */
+    max-width: 10%;
+    height: auto;
+    opacity: 0.9;
+    transition: opacity 0.3s ease;
 }
 
 .certificacoes-container img:hover {
-  opacity: 1;                     /* Totalmente visível ao passar o mouse */
+    opacity: 1;
 }
 
-/* Parte de Daniel Tavares, propagandas e fotos */
-.propagandas {                  
-    padding-right: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
-    padding-left: 35px;          /* Põe espaçamento entre as propagandas e as bordas do site */
-    display: flex;               /* Coloca as propagandas ordenadas (em linha) */
-    text-align: center;          /* Centraliza todo o conteúdo */
+/* Propagandas (Daniel) */
+.propagandas {
+    padding: 0 35px;
+    display: flex;
+    text-align: center;
+    gap: 10px;
 }
 
 .fotos-propagandas {
-    padding-right: 5px;           /* Põe um espaçamento entre as propagandas */
-    padding-left: 5px;            /* Põe um espaçamento entre as propagandas */
-    width: 100%;                 /* Faz com que a imagem preencha 100% do espaço disponível */
-    height: 100%;                /* Faz com que a imagem preencha 100% do espaço disponível */
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Serviços (Pedro) */
+.servicos-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.servicos-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.servicos-texto {
+    max-width: 600px;
+}
+
+/* ===== RESPONSIVIDADE CELULARES ===== */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .logo {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div-busca {
+        width: 100%;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .txt-busca {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 10px 5px;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-text {
+        max-width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .propagandas {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .propagandas div {
+        width: 90%;
+    }
+
+    .categorias {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .categorias div {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .categorias div img {
+        width: 100px;
+    }
+
+    .servicos-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .servicos-container img {
+        width: 80%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-divider {
+        display: none;
+    }
+
+    .certificacoes-container img {
+        max-width: 50%;
+    }
 }
