@@ -6,7 +6,7 @@
 }
 
 body {
-    background-color: #0e0e0e;
+    background-color: #111;
     color: white;
 }
 
@@ -14,7 +14,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    background-color: #111;
+    background-color: #1e1e1e;
     padding: 20px;
 }
 
@@ -40,7 +40,7 @@ nav a {
 }
 
 .banner {
-    background-color: #1a1a1a;
+    background-color: #111;
     padding: 30px;
     display: flex;
     align-items: center;
@@ -71,6 +71,10 @@ nav a {
     font-size: 17px;                    
 }
 
+.banner button:hover {
+    background-color: #4da848
+}
+
 .div-busca {
     display: flex;
     background-color:#378537;
@@ -99,7 +103,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     padding: 20px;
-    background-color: #141414;
+    background-color: #111;
 }
 
 .categorias div {
@@ -127,6 +131,7 @@ nav a {
     display: flex;
     justify-content: space-around;
     flex-wrap: wrap;
+    
 }
 
 .produto {
