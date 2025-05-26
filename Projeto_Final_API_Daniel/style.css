@@ -212,6 +212,7 @@ nav a {
     display: flex;
     text-align: center;
     gap: 10px;
+
 }
 
 .fotos-propagandas {
@@ -334,4 +335,25 @@ nav a {
     .certificacoes-container img {
         max-width: 50%;
     }
+}
+
+.contato {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 260px;
+  background-color: #0ca511;  
+  border: none;                
+  color: rgb(255, 255, 255);              
+  padding: 12px 24px;          
+  text-align: center;         
+  text-decoration: none;     
+  display: inline-block;       
+  font-size: 16px;            
+  border-radius: 8px;          
+  transition: background-color 0.3s ease; 
+  cursor: pointer;          
+}
+
+.contato:hover {
+  background-color:#417e44;
 }
