@@ -238,7 +238,7 @@ nav a {
     max-width: 600px;
 }
 
-/* ===== Responsivo suave (sem reduzir ícones) ===== */
+/* ===== Responsividade ===== */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
