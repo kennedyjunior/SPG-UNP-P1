@@ -238,109 +238,62 @@ nav a {
     max-width: 600px;
 }
 
-/* ===== RESPONSIVIDADE CELULARES ===== */
+/* ===== Responsivo suave (sem reduzir ícones) ===== */
 @media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+    text-align: center;
+  }
 
-    header {
-        flex-direction: column;
-        align-items: flex-start;
-        gap: 15px;
-        padding: 15px;
-    }
+  .logo {
+    flex-direction: column;
+    align-items: center;
+  }
 
-    .logo {
-        justify-content: center;
-        width: 100%;
-    }
+  nav {
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 10px;
+  }
 
-    .div-busca {
-        width: 100%;
-        flex-direction: row;
-        padding: 5px;
-    }
+  .div-busca {
+    width: 90%;
+    justify-content: center;
+  }
 
-    .txt-busca {
-        width: 100%;
-        font-size: 16px;
-    }
+  .txt-busca {
+    width: 100%;
+  }
 
-    nav {
-        width: 100%;
-        display: flex;
-        justify-content: space-around;
-        flex-wrap: wrap;
-    }
+  .categorias div {
+    width: 45%;
+  }
 
-    nav a {
-        margin: 10px 5px;
-    }
+  .servicos-container {
+    flex-direction: column;
+  }
 
-    .banner {
-        flex-direction: column;
-        text-align: center;
-    }
+  .servicos-texto {
+    text-align: center;
+  }
 
-    .banner-text {
-        max-width: 100%;
-    }
+  .footer-container {
+    flex-direction: column;
+    gap: 15px;
+  }
 
-    .banner h1 {
-        font-size: 28px;
-    }
-
-    .propagandas {
-        flex-direction: column;
-        align-items: center;
-        padding: 20px;
-    }
-
-    .propagandas div {
-        width: 90%;
-    }
-
-    .categorias {
-        justify-content: center;
-        gap: 15px;
-    }
-
-    .categorias div {
-        width: 45%;
-        margin-bottom: 10px;
-    }
-
-    .categorias div img {
-        width: 100px;
-    }
-
-    .servicos-container {
-        flex-direction: column;
-        text-align: center;
-        padding: 20px;
-    }
-
-    .servicos-container img {
-        width: 80%;
-    }
-
-    .footer-container {
-        flex-direction: column;
-        text-align: center;
-        gap: 20px;
-    }
-
-    .footer-divider {
-        display: none;
-    }
-
-    .certificacoes-container img {
-        max-width: 50%;
-    }
+  .propagandas {
+    flex-direction: column;
+    align-items: center;
+  }
 }
 
 .contato {
   position: absolute;
   margin-top: -60px;
-  margin-left: 260px;
+  margin-left: 180px;
   background-color: #0ca511;  
   border: none;                
   color: rgb(255, 255, 255);              
