@@ -10,62 +10,132 @@
 </head>
 <body>
     <header>
+      
+      <!-- Div da Logo no topo do site (daniel) -->
         <div class="logo">
-            <img src="Referencias/Logo-removebg-preview.png" alt="Super Games Logo">
+            <nav onclick="window.location.href='menu-principal.html'" style="cursor: pointer;">
+              <img src="Referencias/logosemfundo.png" alt="Super Games Logo">
+            </nav>
+
             <span class="logo-text" onclick="window.location.href='menu-principal.html'" style="cursor: pointer;">
-              SUPER GAMES COMPUTADORES</span>
+              SUPER GAMES & COMPUTADORES</span>
         </div>
-        <div class="div-busca">
+
+        <!-- Div do botão de pesquisa (daniel) -->
+        <div class="div-busca">                                                   
             <input type="text" class="txt-busca" placeholder="Pesquisar..."/>
             <nav>
-                <a href="#"> <img src="Referencias/free-pesquisa-1895571-1604561.webp" alt="Icone-Buscar" height="30px"/> </a>
+                <a href="#"> <img src="Referencias/pesquisa.webp" alt="Icone-Buscar" height="30px"/> </a>
             </nav>
         </div>
+
         <nav>
             <a href="#">Promoções</a>
-            <a href="#">Games</a>
-            <a href="#">Computadores</a>
+            <a href="#">Carrinho</a>
+            <a href="#">Entrar</a>
         </nav>
     </header>
 
-  <section class="banner">
+    <!-- Seção de banner (daniel)-->
+  <section class="banner"> 
     <div class="banner-text">
       <h1>OFERTAS EM <span>HARDWARE GAMER</span></h1>
       <button>CONFIRA</button>
     </div>
-    <img src="pc-headset.png" alt="PC e Headset" style="height:150px;">
   </section>
 
-  <section class="ofertas">
-    <h2>OFERTAS</h2>
-    <div class="produtos">
-      <div class="produto"><img src="controle.png" alt="Controle" style="width:100px;"><p>Controle Gamer</p></div>
-      <div class="produto"><img src="notebook.png" alt="Notebook" style="width:100px;"><p>Notebook Gamer</p></div>
-      <div class="produto"><img src="monitor.png" alt="Monitor" style="width:100px;"><p>Monitor Gamer</p></div>
-      <div class="produto"><img src="servicos.png" alt="Serviços" style="width:60px;"><p>Serviços</p></div>
+
+  <!-- Seção das ofertas/propagandas dos produtos com 3 anuncios (daniel) -->
+  <section class="propagandas"> 
+    <div>
+      <img class="fotos-propagandas" src="Referencias/Oferta_1.jpg" alt="descrição">
+    </div>
+    <div>
+      <img class="fotos-propagandas" src="Referencias/Oferta_1.jpg" alt="descrição">
+    </div>
+    <div>
+      <img class="fotos-propagandas" src="Referencias/Oferta_1.jpg" alt="descrição">
     </div>
   </section>
 
-    <section class="categorias">
-    <div><img src="icon-console.png" alt="Consoles"><p>Consoles</p></div>
-    <div><img src="icon-pc.png" alt="PCs"><p>PCs e Notebooks</p></div>
-    <div><img src="icon-perifericos.png" alt="Periféricos"><p>Periféricos</p></div>
-    <div><img src="icon-camiseta.png" alt="Colecionáveis"><p>Colecionáveis</p></div>
+    <!-- Seção de categorias de produtos (eduardo)-->
+  <section class="categorias">
+    <!-- Categoria: Consoles -->
+    <div><img src="Referencias/console.png" alt="Consoles"><p>Consoles</p></div>
+    
+    <!-- Categoria: PCs -->
+    <div><img src="Referencias/pcgamer.png" alt="PCs"><p>PC</p></div>
+    
+    <!-- Categoria: Periféricos -->
+    <div><img src="Referencias/perifericos.png" alt="Periféricos"><p>Periféricos</p></div>
+    
+    <!-- Categoria: Hardware -->
+    <div><img src="Referencias/colecionavel.png" alt="Hardware"><p>Hardware</p></div>
+    
+    <!-- Categoria: Camisas -->
+    <div><img src="Referencias/console.png" alt="Camisas"><p>Camisas</p></div>
+    
+    <!-- Categoria: Canecas -->
+    <div><img src="Referencias/pcgamer.png" alt="PCs"><p>Canecas</p></div>
+    
+    <!-- Categoria: Celulares -->
+    <div><img src="Referencias/perifericos.png" alt="Periféricos"><p>Periféricos</p></div>
+    
+    <!-- Categoria: Espaço gamers -->
+    <div><img src="Referencias/colecionavel.png" alt="Espaço gamers"><p>Espaços gamers</p></div>
+
   </section>
 
-  <footer>
-      <div class="footer-container">
-        <div class="footer-info">
-          <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p>
-          <p>Email: contato@exemplo.com | Tel: (00) 12345-6789</p>
-          <p>supergames.vet</p>
-        </div>
-        <div class="footer-social">
-          <a href="#"><img src="instagram.png" alt="Instagram" class="social-icon"></a>
-          <a href="#"><img src="whatsapp.png" alt="WhatsApp" class="social-icon"></a>
-          <a href="#"><img src="facebook.png" alt="Facebook" class="social-icon"></a>
-        </div>
-        </div>
+    <!-- Seção de Serviços Efetuados (pedro) -->
+  <section class="servicos">
+    <div class="servicos-container" style="display: flex; align-items: center; gap: 30px; padding: 50px;">
+      <img src="Referencias/spgames.png" alt="Funcionário Super Games" style="width: 200px; border-radius: 10px;">
+      <div class="servicos-texto" style="max-width: 600px;">
+        <h2>Serviços Prestados</h2>
+        <ul>
+          <li>Formatação e reinstalação de sistemas operacionais</li>
+          <li>Montagem de computadores personalizados</li>
+          <li>Limpeza interna e manutenção preventiva</li>
+          <li>Atualização de hardware e drivers</li>
+          <li>Suporte técnico e diagnóstico de problemas</li>
+          <li>Instalação de softwares e antivírus</li>
+        </ul>
+      </div>
+    </div>
+    <button class="contato"> Entre em contato agora mesmo!</button>
+  </section>  
+
+  <!-- Rodapé da página (eduardo)-->
+  <footer class="footer">
+    <div class="footer-container">
+
+      <!-- Lado esquerdo: informações de contato -->
+      <div class="footer-info">
+        <p>Endereço: Rua Exemplo, 123, Cidade, Estado</p> <!-- Endereço fictício -->
+        <p>Email: contato@exemplo.com | Tel: (00) 12345-6789</p> <!-- Contato -->
+        <p>supergames.vet</p> <!-- Nome da loja ou domínio -->
+      </div>
+
+      <!-- Barra vertical de divisão entre as seções -->
+      <div class="footer-divider"></div>
+
+      <!-- Lado direito: ícones de redes sociais -->
+      <div class="footer-social">
+        <a href="#"><img src="Referencias/instagram.png" class="social-icon" alt="Instagram"></a> <!-- Ícone do Instagram -->
+        <a href="#"><img src="Referencias/whatsapp.png" class="social-icon" alt="WhatsApp"></a>   <!-- Ícone do WhatsApp -->
+        <a href="#"><img src="Referencias/facebook.png" class="social-icon" alt="Facebook"></a>   <!-- Ícone do Facebook -->
+      </div>
+
+    </div>
   </footer>
+
+    <!-- Seção de certificações (eduardo) -->
+  <section class="certificacoes">
+    <div class="certificacoes-container">
+      <img src="Referencias/certificados.png" alt="Certificações e selos de segurança">
+    </div>
+  </section>
+
+
 </body>
 </html>

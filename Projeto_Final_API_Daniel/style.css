@@ -144,6 +144,151 @@ footer p, footer a {
     
 }
 
+<<<<<<< Updated upstream
 .txt-busca::placeholder {
     color: black;
 }
+=======
+.fotos-propagandas {
+    width: 100%;
+    height: auto;
+    border-radius: 10px;
+}
+
+/* Serviços (Pedro) */
+.servicos-container {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    padding: 40px;
+}
+
+.servicos-container img {
+    width: 200px;
+    border-radius: 10px;
+}
+
+.servicos-texto {
+    max-width:600px;
+}
+
+/* ===== RESPONSIVIDADE CELULARES ===== */
+@media (max-width: 768px) {
+
+    header {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 15px;
+        padding: 15px;
+    }
+
+    .logo {
+        justify-content: center;
+        width: 100%;
+    }
+
+    .div-busca {
+        width: 100%;
+        flex-direction: row;
+        padding: 5px;
+    }
+
+    .txt-busca {
+        width: 100%;
+        font-size: 16px;
+    }
+
+    nav {
+        width: 100%;
+        display: flex;
+        justify-content: space-around;
+        flex-wrap: wrap;
+    }
+
+    nav a {
+        margin: 10px 5px;
+    }
+
+    .banner {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .banner-text {
+        max-width: 100%;
+    }
+
+    .banner h1 {
+        font-size: 28px;
+    }
+
+    .propagandas {
+        flex-direction: column;
+        align-items: center;
+        padding: 20px;
+    }
+
+    .propagandas div {
+        width: 90%;
+    }
+
+    .categorias {
+        justify-content: center;
+        gap: 15px;
+    }
+
+    .categorias div {
+        width: 45%;
+        margin-bottom: 10px;
+    }
+
+    .categorias div img {
+        width: 100px;
+    }
+
+    .servicos-container {
+        flex-direction: column;
+        text-align: center;
+        padding: 20px;
+    }
+
+    .servicos-container img {
+        width: 80%;
+    }
+
+    .footer-container {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .footer-divider {
+        display: none;
+    }
+
+    .certificacoes-container img {
+        max-width: 50%;
+    }
+}
+
+.contato {
+  position: absolute;
+  margin-top: -60px;
+  margin-left: 260px;
+  background-color: #0ca511;  
+  border: none;                
+  color: rgb(255, 255, 255);              
+  padding: 12px 24px;          
+  text-align: center;         
+  text-decoration: none;     
+  display: inline-block;       
+  font-size: 16px;            
+  border-radius: 8px;          
+  transition: background-color 0.3s ease; 
+  cursor: pointer;          
+}
+
+.contato:hover {
+  background-color: #417e44;  
+}
+>>>>>>> Stashed changes
