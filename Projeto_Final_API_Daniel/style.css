@@ -212,6 +212,7 @@ nav a {
     display: flex;
     text-align: center;
     gap: 10px;
+
 }
 
 .fotos-propagandas {
@@ -356,4 +357,3 @@ nav a {
 .contato:hover {
   background-color:#417e44;
 }
-
