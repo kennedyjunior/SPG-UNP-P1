@@ -144,11 +144,10 @@ footer p, footer a {
     
 }
 
-<<<<<<< Updated upstream
 .txt-busca::placeholder {
     color: black;
 }
-=======
+
 .fotos-propagandas {
     width: 100%;
     height: auto;
@@ -291,4 +290,4 @@ footer p, footer a {
 .contato:hover {
   background-color: #417e44;  
 }
->>>>>>> Stashed changes
+
