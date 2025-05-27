@@ -1,3 +1,4 @@
+/* Inicio realizado por José Kennedy */
 * {
     margin: 0;
     padding: 0;
@@ -142,8 +143,9 @@ nav a {
     width: 180px;
     text-align: center;
 }
+/* Final da parte de José Kennedy */
 
-/* Rodapé (Eduardo) */
+/* Rodapé por Eduardo Augusto */
 .footer {
     background-color: #1e1e1e;
     color: #fff;
@@ -188,7 +190,6 @@ nav a {
     transform: scale(1.1);
 }
 
-/* Certificações */
 .certificacoes {
     background-color: #fafafa;
     padding: 20px 0;
@@ -205,8 +206,9 @@ nav a {
 .certificacoes-container img:hover {
     opacity: 1;
 }
+/* Social e Certificações fim por Eduardo Augusto */
 
-/* Propagandas (Daniel) */
+/* Propagandas por Daniel */
 .propagandas {
     padding: 0 35px;
     display: flex;
@@ -220,8 +222,9 @@ nav a {
     height: auto;
     border-radius: 10px;
 }
+/* Propagandas fim por Daniel Tavares */
 
-/* Serviços (Pedro) */
+/* Serviços por Pedro Henrique */
 .servicos-container {
     display: flex;
     align-items: center;
@@ -237,8 +240,10 @@ nav a {
 .servicos-texto {
     max-width: 600px;
 }
+/* Serviços fim por Pedro Henrique */
 
-/* ===== Responsividade ===== */
+
+/* ===== Responsividade por Eduardo Augusto ===== */
 @media (max-width: 768px) {
   header {
     flex-direction: column;
@@ -290,6 +295,7 @@ nav a {
   }
 }
 
+/* Contato por Eduardo Augusto*/
 .contato {
   position: absolute;
   margin-top: -60px;
@@ -310,3 +316,4 @@ nav a {
 .contato:hover {
   background-color:#417e44;
 }
+/* Contato fim por Eduardo Augusto*/
